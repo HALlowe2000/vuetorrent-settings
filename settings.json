@@ -1,0 +1,990 @@
+{
+  "backendUrl": "",
+  "theme": {
+    "mode": "system",
+    "light": "light-legacy",
+    "dark": "dark-legacy"
+  },
+  "dateFormat": "YYYY-MM-DD HH:mm:ss",
+  "deleteWithFiles": true,
+  "fileContentInterval": 5000,
+  "isDrawerRight": false,
+  "hideChipIfUnset": true,
+  "enableRatioColors": true,
+  "enableHashColors": true,
+  "isShutdownButtonVisible": false,
+  "language": "en",
+  "paginationSize": 100,
+  "refreshInterval": 2000,
+  "showAlltimeStat": true,
+  "showCurrentSpeed": true,
+  "showFreeSpace": true,
+  "showSessionStat": true,
+  "showSpeedGraph": true,
+  "showSpeedInTitle": false,
+  "uiTitleType": 3,
+  "uiTitleCustom": "MISC qBT",
+  "useBinarySize": false,
+  "useBitSpeed": false,
+  "useIdForRssLinks": false,
+  "hideColoredChip": false,
+  "_busyProperties": {
+    "added_on": {
+      "active": true,
+      "order": 3
+    },
+    "amount_left": {
+      "active": false,
+      "order": 20
+    },
+    "availability": {
+      "active": false,
+      "order": 17
+    },
+    "avg_download_speed": {
+      "active": false,
+      "order": 40
+    },
+    "avg_upload_speed": {
+      "active": false,
+      "order": 41
+    },
+    "basename_content_path": {
+      "active": false,
+      "order": 43
+    },
+    "basename_download_path": {
+      "active": false,
+      "order": 44
+    },
+    "basename_save_path": {
+      "active": false,
+      "order": 45
+    },
+    "category": {
+      "active": true,
+      "order": 15
+    },
+    "completed_on": {
+      "active": false,
+      "order": 19
+    },
+    "content_path": {
+      "active": false,
+      "order": 21
+    },
+    "download_limit": {
+      "active": false,
+      "order": 23
+    },
+    "download_path": {
+      "active": false,
+      "order": 24
+    },
+    "download_speed": {
+      "active": true,
+      "order": 5
+    },
+    "downloaded": {
+      "active": true,
+      "order": 7
+    },
+    "downloaded_session": {
+      "active": false,
+      "order": 22
+    },
+    "eta": {
+      "active": true,
+      "order": 13
+    },
+    "global_speed": {
+      "active": false,
+      "order": 34
+    },
+    "global_volume": {
+      "active": false,
+      "order": 35
+    },
+    "hash": {
+      "active": false,
+      "order": 25
+    },
+    "inactive_seeding_time_limit": {
+      "active": false,
+      "order": 42
+    },
+    "infohash_v1": {
+      "active": false,
+      "order": 26
+    },
+    "infohash_v2": {
+      "active": false,
+      "order": 27
+    },
+    "last_activity": {
+      "active": false,
+      "order": 18
+    },
+    "peers": {
+      "active": true,
+      "order": 10
+    },
+    "priority": {
+      "active": true,
+      "order": 36
+    },
+    "progress": {
+      "active": true,
+      "order": 2
+    },
+    "ratio": {
+      "active": true,
+      "order": 4
+    },
+    "ratio_limit": {
+      "active": false,
+      "order": 37
+    },
+    "save_path": {
+      "active": false,
+      "order": 8
+    },
+    "seeding_time": {
+      "active": false,
+      "order": 39
+    },
+    "seeding_time_limit": {
+      "active": false,
+      "order": 39
+    },
+    "seeds": {
+      "active": true,
+      "order": 11
+    },
+    "seen_complete": {
+      "active": false,
+      "order": 28
+    },
+    "size": {
+      "active": true,
+      "order": 1
+    },
+    "state": {
+      "active": true,
+      "order": 12
+    },
+    "tags": {
+      "active": true,
+      "order": 16
+    },
+    "time_active": {
+      "active": false,
+      "order": 29
+    },
+    "total_size": {
+      "active": false,
+      "order": 30
+    },
+    "tracker": {
+      "active": true,
+      "order": 14
+    },
+    "trackers_count": {
+      "active": false,
+      "order": 31
+    },
+    "truncated_hash": {
+      "active": false,
+      "order": 46
+    },
+    "upload_limit": {
+      "active": true,
+      "order": 33
+    },
+    "upload_speed": {
+      "active": true,
+      "order": 6
+    },
+    "uploaded": {
+      "active": true,
+      "order": 9
+    },
+    "uploaded_session": {
+      "active": false,
+      "order": 32
+    },
+    "ratio_time_limit": {
+      "active": false,
+      "order": 38
+    }
+  },
+  "_doneProperties": {
+    "added_on": {
+      "active": true,
+      "order": 3
+    },
+    "amount_left": {
+      "active": false,
+      "order": 20
+    },
+    "availability": {
+      "active": false,
+      "order": 17
+    },
+    "avg_download_speed": {
+      "active": false,
+      "order": 40
+    },
+    "avg_upload_speed": {
+      "active": false,
+      "order": 41
+    },
+    "basename_content_path": {
+      "active": false,
+      "order": 43
+    },
+    "basename_download_path": {
+      "active": false,
+      "order": 44
+    },
+    "basename_save_path": {
+      "active": false,
+      "order": 45
+    },
+    "category": {
+      "active": true,
+      "order": 14
+    },
+    "completed_on": {
+      "active": false,
+      "order": 19
+    },
+    "content_path": {
+      "active": false,
+      "order": 21
+    },
+    "download_limit": {
+      "active": false,
+      "order": 23
+    },
+    "download_path": {
+      "active": false,
+      "order": 24
+    },
+    "download_speed": {
+      "active": false,
+      "order": 5
+    },
+    "downloaded": {
+      "active": false,
+      "order": 7
+    },
+    "downloaded_session": {
+      "active": false,
+      "order": 22
+    },
+    "eta": {
+      "active": false,
+      "order": 16
+    },
+    "global_speed": {
+      "active": false,
+      "order": 34
+    },
+    "global_volume": {
+      "active": false,
+      "order": 35
+    },
+    "hash": {
+      "active": false,
+      "order": 25
+    },
+    "inactive_seeding_time_limit": {
+      "active": false,
+      "order": 42
+    },
+    "infohash_v1": {
+      "active": false,
+      "order": 26
+    },
+    "infohash_v2": {
+      "active": false,
+      "order": 27
+    },
+    "last_activity": {
+      "active": false,
+      "order": 18
+    },
+    "peers": {
+      "active": true,
+      "order": 10
+    },
+    "priority": {
+      "active": false,
+      "order": 36
+    },
+    "progress": {
+      "active": true,
+      "order": 2
+    },
+    "ratio": {
+      "active": true,
+      "order": 4
+    },
+    "ratio_limit": {
+      "active": false,
+      "order": 37
+    },
+    "save_path": {
+      "active": false,
+      "order": 8
+    },
+    "seeding_time": {
+      "active": false,
+      "order": 39
+    },
+    "seeding_time_limit": {
+      "active": false,
+      "order": 39
+    },
+    "seeds": {
+      "active": true,
+      "order": 11
+    },
+    "seen_complete": {
+      "active": false,
+      "order": 28
+    },
+    "size": {
+      "active": true,
+      "order": 1
+    },
+    "state": {
+      "active": true,
+      "order": 12
+    },
+    "tags": {
+      "active": true,
+      "order": 15
+    },
+    "time_active": {
+      "active": false,
+      "order": 29
+    },
+    "total_size": {
+      "active": false,
+      "order": 30
+    },
+    "tracker": {
+      "active": true,
+      "order": 13
+    },
+    "trackers_count": {
+      "active": false,
+      "order": 31
+    },
+    "truncated_hash": {
+      "active": false,
+      "order": 46
+    },
+    "upload_limit": {
+      "active": true,
+      "order": 33
+    },
+    "upload_speed": {
+      "active": true,
+      "order": 6
+    },
+    "uploaded": {
+      "active": true,
+      "order": 9
+    },
+    "uploaded_session": {
+      "active": false,
+      "order": 32
+    },
+    "ratio_time_limit": {
+      "active": false,
+      "order": 38
+    }
+  },
+  "_busyGridProperties": {
+    "added_on": {
+      "active": true,
+      "order": 16
+    },
+    "amount_left": {
+      "active": false,
+      "order": 20
+    },
+    "availability": {
+      "active": true,
+      "order": 17
+    },
+    "avg_download_speed": {
+      "active": false,
+      "order": 40
+    },
+    "avg_upload_speed": {
+      "active": false,
+      "order": 41
+    },
+    "basename_content_path": {
+      "active": false,
+      "order": 43
+    },
+    "basename_download_path": {
+      "active": false,
+      "order": 44
+    },
+    "basename_save_path": {
+      "active": false,
+      "order": 45
+    },
+    "category": {
+      "active": true,
+      "order": 14
+    },
+    "completed_on": {
+      "active": false,
+      "order": 19
+    },
+    "content_path": {
+      "active": false,
+      "order": 21
+    },
+    "download_limit": {
+      "active": false,
+      "order": 23
+    },
+    "download_path": {
+      "active": false,
+      "order": 24
+    },
+    "download_speed": {
+      "active": true,
+      "order": 3
+    },
+    "downloaded": {
+      "active": true,
+      "order": 5
+    },
+    "downloaded_session": {
+      "active": false,
+      "order": 22
+    },
+    "eta": {
+      "active": true,
+      "order": 8
+    },
+    "global_speed": {
+      "active": false,
+      "order": 34
+    },
+    "global_volume": {
+      "active": false,
+      "order": 35
+    },
+    "hash": {
+      "active": false,
+      "order": 25
+    },
+    "inactive_seeding_time_limit": {
+      "active": false,
+      "order": 42
+    },
+    "infohash_v1": {
+      "active": false,
+      "order": 26
+    },
+    "infohash_v2": {
+      "active": false,
+      "order": 27
+    },
+    "last_activity": {
+      "active": false,
+      "order": 18
+    },
+    "peers": {
+      "active": true,
+      "order": 9
+    },
+    "priority": {
+      "active": false,
+      "order": 36
+    },
+    "progress": {
+      "active": true,
+      "order": 2
+    },
+    "ratio": {
+      "active": true,
+      "order": 12
+    },
+    "ratio_limit": {
+      "active": false,
+      "order": 37
+    },
+    "save_path": {
+      "active": false,
+      "order": 6
+    },
+    "seeding_time": {
+      "active": false,
+      "order": 39
+    },
+    "seeding_time_limit": {
+      "active": false,
+      "order": 39
+    },
+    "seeds": {
+      "active": true,
+      "order": 10
+    },
+    "seen_complete": {
+      "active": false,
+      "order": 28
+    },
+    "size": {
+      "active": true,
+      "order": 1
+    },
+    "state": {
+      "active": true,
+      "order": 11
+    },
+    "tags": {
+      "active": true,
+      "order": 15
+    },
+    "time_active": {
+      "active": false,
+      "order": 29
+    },
+    "total_size": {
+      "active": false,
+      "order": 30
+    },
+    "tracker": {
+      "active": false,
+      "order": 13
+    },
+    "trackers_count": {
+      "active": false,
+      "order": 31
+    },
+    "truncated_hash": {
+      "active": false,
+      "order": 46
+    },
+    "upload_limit": {
+      "active": false,
+      "order": 33
+    },
+    "upload_speed": {
+      "active": true,
+      "order": 4
+    },
+    "uploaded": {
+      "active": true,
+      "order": 7
+    },
+    "uploaded_session": {
+      "active": false,
+      "order": 32
+    },
+    "ratio_time_limit": {
+      "active": false,
+      "order": 38
+    }
+  },
+  "_doneGridProperties": {
+    "added_on": {
+      "active": true,
+      "order": 16
+    },
+    "amount_left": {
+      "active": false,
+      "order": 20
+    },
+    "availability": {
+      "active": true,
+      "order": 17
+    },
+    "avg_download_speed": {
+      "active": false,
+      "order": 40
+    },
+    "avg_upload_speed": {
+      "active": false,
+      "order": 41
+    },
+    "basename_content_path": {
+      "active": false,
+      "order": 43
+    },
+    "basename_download_path": {
+      "active": false,
+      "order": 44
+    },
+    "basename_save_path": {
+      "active": false,
+      "order": 45
+    },
+    "category": {
+      "active": true,
+      "order": 14
+    },
+    "completed_on": {
+      "active": false,
+      "order": 19
+    },
+    "content_path": {
+      "active": false,
+      "order": 21
+    },
+    "download_limit": {
+      "active": false,
+      "order": 23
+    },
+    "download_path": {
+      "active": false,
+      "order": 24
+    },
+    "download_speed": {
+      "active": true,
+      "order": 3
+    },
+    "downloaded": {
+      "active": true,
+      "order": 5
+    },
+    "downloaded_session": {
+      "active": false,
+      "order": 22
+    },
+    "eta": {
+      "active": true,
+      "order": 8
+    },
+    "global_speed": {
+      "active": false,
+      "order": 34
+    },
+    "global_volume": {
+      "active": false,
+      "order": 35
+    },
+    "hash": {
+      "active": false,
+      "order": 25
+    },
+    "inactive_seeding_time_limit": {
+      "active": false,
+      "order": 42
+    },
+    "infohash_v1": {
+      "active": false,
+      "order": 26
+    },
+    "infohash_v2": {
+      "active": false,
+      "order": 27
+    },
+    "last_activity": {
+      "active": false,
+      "order": 18
+    },
+    "peers": {
+      "active": true,
+      "order": 9
+    },
+    "priority": {
+      "active": false,
+      "order": 36
+    },
+    "progress": {
+      "active": true,
+      "order": 2
+    },
+    "ratio": {
+      "active": true,
+      "order": 12
+    },
+    "ratio_limit": {
+      "active": false,
+      "order": 37
+    },
+    "save_path": {
+      "active": false,
+      "order": 6
+    },
+    "seeding_time": {
+      "active": false,
+      "order": 39
+    },
+    "seeding_time_limit": {
+      "active": false,
+      "order": 39
+    },
+    "seeds": {
+      "active": true,
+      "order": 10
+    },
+    "seen_complete": {
+      "active": false,
+      "order": 28
+    },
+    "size": {
+      "active": true,
+      "order": 1
+    },
+    "state": {
+      "active": true,
+      "order": 11
+    },
+    "tags": {
+      "active": true,
+      "order": 15
+    },
+    "time_active": {
+      "active": false,
+      "order": 29
+    },
+    "total_size": {
+      "active": false,
+      "order": 30
+    },
+    "tracker": {
+      "active": false,
+      "order": 13
+    },
+    "trackers_count": {
+      "active": false,
+      "order": 31
+    },
+    "truncated_hash": {
+      "active": false,
+      "order": 46
+    },
+    "upload_limit": {
+      "active": false,
+      "order": 33
+    },
+    "upload_speed": {
+      "active": true,
+      "order": 4
+    },
+    "uploaded": {
+      "active": true,
+      "order": 7
+    },
+    "uploaded_session": {
+      "active": false,
+      "order": 32
+    },
+    "ratio_time_limit": {
+      "active": false,
+      "order": 38
+    }
+  },
+  "_tableProperties": {
+    "added_on": {
+      "active": true,
+      "order": 16
+    },
+    "amount_left": {
+      "active": false,
+      "order": 20
+    },
+    "availability": {
+      "active": false,
+      "order": 17
+    },
+    "avg_download_speed": {
+      "active": false,
+      "order": 40
+    },
+    "avg_upload_speed": {
+      "active": false,
+      "order": 41
+    },
+    "basename_content_path": {
+      "active": false,
+      "order": 43
+    },
+    "basename_download_path": {
+      "active": false,
+      "order": 44
+    },
+    "basename_save_path": {
+      "active": false,
+      "order": 45
+    },
+    "category": {
+      "active": true,
+      "order": 14
+    },
+    "completed_on": {
+      "active": false,
+      "order": 19
+    },
+    "content_path": {
+      "active": false,
+      "order": 21
+    },
+    "download_limit": {
+      "active": false,
+      "order": 23
+    },
+    "download_path": {
+      "active": false,
+      "order": 24
+    },
+    "download_speed": {
+      "active": true,
+      "order": 3
+    },
+    "downloaded": {
+      "active": true,
+      "order": 5
+    },
+    "downloaded_session": {
+      "active": false,
+      "order": 22
+    },
+    "eta": {
+      "active": true,
+      "order": 8
+    },
+    "global_speed": {
+      "active": false,
+      "order": 34
+    },
+    "global_volume": {
+      "active": false,
+      "order": 35
+    },
+    "hash": {
+      "active": false,
+      "order": 25
+    },
+    "inactive_seeding_time_limit": {
+      "active": false,
+      "order": 42
+    },
+    "infohash_v1": {
+      "active": false,
+      "order": 26
+    },
+    "infohash_v2": {
+      "active": false,
+      "order": 27
+    },
+    "last_activity": {
+      "active": false,
+      "order": 18
+    },
+    "peers": {
+      "active": true,
+      "order": 9
+    },
+    "priority": {
+      "active": false,
+      "order": 36
+    },
+    "progress": {
+      "active": true,
+      "order": 2
+    },
+    "ratio": {
+      "active": true,
+      "order": 12
+    },
+    "ratio_limit": {
+      "active": false,
+      "order": 37
+    },
+    "save_path": {
+      "active": false,
+      "order": 6
+    },
+    "seeding_time": {
+      "active": false,
+      "order": 39
+    },
+    "seeding_time_limit": {
+      "active": false,
+      "order": 39
+    },
+    "seeds": {
+      "active": true,
+      "order": 10
+    },
+    "seen_complete": {
+      "active": false,
+      "order": 28
+    },
+    "size": {
+      "active": true,
+      "order": 1
+    },
+    "state": {
+      "active": true,
+      "order": 11
+    },
+    "tags": {
+      "active": true,
+      "order": 15
+    },
+    "time_active": {
+      "active": false,
+      "order": 29
+    },
+    "total_size": {
+      "active": false,
+      "order": 30
+    },
+    "tracker": {
+      "active": true,
+      "order": 13
+    },
+    "trackers_count": {
+      "active": false,
+      "order": 31
+    },
+    "truncated_hash": {
+      "active": false,
+      "order": 46
+    },
+    "upload_limit": {
+      "active": false,
+      "order": 33
+    },
+    "upload_speed": {
+      "active": true,
+      "order": 4
+    },
+    "uploaded": {
+      "active": true,
+      "order": 7
+    },
+    "uploaded_session": {
+      "active": false,
+      "order": 32
+    },
+    "ratio_time_limit": {
+      "active": false,
+      "order": 38
+    }
+  },
+  "displayGraphLimits": true,
+  "vuetorrentTheme": 2,
+  "isPaginationOnTop": false,
+  "openSideBarOnStart": true,
+  "showTrackerFilter": true,
+  "canvasRenderThreshold": 3000,
+  "canvasRefreshThreshold": 5000,
+  "darkMode": true,
+  "matchSystemTheme": true
+}
